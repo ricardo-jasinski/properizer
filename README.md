@@ -1,8 +1,8 @@
 # Properizer
 
-Properizer provides convenience methods to change the letter case in a sentence to Title Case. 
-It can be used to enforce some consistency in data that is input manually or read from sources 
-outside your control.
+Properizer implements convenience methods for changing a sentence's letter 
+casing to Title Case. It can be used to enforce consistency in data obtained 
+from manual input or other sources beyond your control.
 
 ## Installation
 

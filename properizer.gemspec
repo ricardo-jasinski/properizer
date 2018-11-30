@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jasinski']
   spec.email         = ['jasinski@solvis.com.br']
 
-  spec.summary       = 'Properizer provides convenience methods to change the letter case in a sentence to Title Case.'
-  spec.description   = 'Properizer provides convenience methods to change the letter case in a sentence to Title Case. It can be used to enforce some consistency in data that is input manually or read from sources outside your control.'
+  spec.summary       = "Properizer implements convenience methods for changing a sentence's letter casing to Title Case."
+  spec.description   = "Properizer implements convenience methods for changing a sentence's letter casing to Title Case. It can be used to enforce consistency in data obtained from manual input or other sources beyond your control."
   spec.homepage      = 'https://github.com/ricardo-jasinski/properizer'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
       'public gem pushes.'
   end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
+  spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = 'exe'
@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'byebug'
 end
